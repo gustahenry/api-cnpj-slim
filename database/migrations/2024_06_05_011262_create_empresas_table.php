@@ -19,7 +19,7 @@ class CreateEmpresasTable extends Migration
             $table->bigInteger('capital_social');
 
 
-            $table->index('cnpj_basico');
+            //$table->index('cnpj_basico');
 
         });
     }
